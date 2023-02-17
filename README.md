@@ -196,6 +196,44 @@ Os operadores aritméticos em Java são símbolos usados para realizar operaçõ
 
 Esses operadores podem ser usados ​​em expressões matemáticas simples ou complexas e também podem ser combinados com outros operadores e funções matemáticas para executar cálculos mais avançados. Além disso, é importante lembrar que em Java, a ordem de precedência dos operadores aritméticos segue a mesma ordem da matemática convencional, ou seja, parênteses, multiplicação e divisão e, em seguida, adição e subtração.
 
+```java
+int x = 5;
+int y = 2;
+
+System.out.println(x + y); // 7
+System.out.println(x - y); // 3
+System.out.println(x * y); // 10
+System.out.println(x / y); // 2
+System.out.println(x % y); // 1
+System.out.println(x++); // 5
+System.out.println(x--); // 6
+```
+
+## Operadores relacionais
+
+Os operadores relacionais em Java são usados ​​para comparar dois valores e retornar um valor booleano (verdadeiro ou falso) como resultado. Eles são usados ​​para testar a relação entre duas expressões. Os operadores relacionais em Java incluem:
+
+- Igual a (==): usado para testar se dois valores são iguais
+- Diferente de (!=): usado para testar se dois valores são diferentes
+- Maior que (>): usado para testar se um valor é maior que outro
+- Menor que (<): usado para testar se um valor é menor que outro
+- Maior ou igual a (>=): usado para testar se um valor é maior ou igual a outro
+- Menor ou igual a (<=): usado para testar se um valor é menor ou igual a outro
+
+```java
+int x = 5;
+int y = 2;
+
+System.out.println(x == y); // false
+System.out.println(x != y); // true
+System.out.println(x > y); // true
+System.out.println(x < y); // false
+System.out.println(x >= y); // true
+System.out.println(x <= y); // false
+```
+
+<hr />
+
 ### Conograma de estudos
 
 Aqui estão algumas dicas que podem ajudá-lo a estudar Java e seguir um cronograma:
