@@ -56,6 +56,31 @@ public class TiposPrimitivos {
         long ageLong = 1000000000000000000L;
         boolean isTrue = true;
 
+        // Casting
+        // int -> double
+        double newSalary = salary;
+        System.out.println(newSalary);
+
+        // double -> int
+        int newAge = (int) newSalary;
+        System.out.println(newAge);
+
+        // double -> float
+        float newSalaryFloat = (float) newSalary;
+        System.out.println(newSalaryFloat);
+
+        // int -> char
+        char newCaractere = (char) age;
+        System.out.println(newCaractere);
+
+        // int -> byte
+        byte newAgeByte = (byte) age;
+        System.out.println(newAgeByte);
+
+        // int -> short
+        short newAgeShort = (short) age;
+        System.out.println(newAgeShort);
+
         System.out.println("Idade: " + age);
         System.out.println("Salário: " + salary);
         System.out.println("Salário float: " + salaryFloat);

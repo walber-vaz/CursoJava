@@ -82,6 +82,20 @@ Tipos de dados são usados para armazenar valores em variáveis. Tipos de dados 
 
 Tipos primitivos são tipos de dados que não são objetos. Tipos primitivos são divididos em 8 tipos:
 
+**Casting**
+
+Cast é a conversão de um tipo de dado para outro. Para fazer um cast, basta colocar o tipo de dado entre parênteses antes do valor.
+
+```java
+int x = 4;
+double y = x; // casting implicito
+System.out.println(y); // 4.0
+
+double a = 5.5;
+int b = (int) a; // casting explicito
+System.out.println(b); // 5
+```
+
 - Tipos primitivos são divididos em 8 tipos:
   - byte
   - short
