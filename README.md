@@ -182,6 +182,20 @@ Este código irá imprimir "As strings são iguais", porque as duas strings têm
 
 A classe String em Java também oferece muitos outros métodos úteis para trabalhar com strings, como length(), substring(), replace(), indexOf() e split(). Com esses métodos, você pode realizar muitas operações comuns em strings, como encontrar substrings, substituir caracteres, dividir uma string em partes e muito mais.
 
+## Operadores aritméticos
+
+Os operadores aritméticos em Java são símbolos usados para realizar operações matemáticas em expressões numéricas. Eles incluem:
+
+- Adição (+): usada para adicionar dois valores
+- Subtração (-): usada para subtrair dois valores
+- Multiplicação (\*): usada para multiplicar dois valores
+- Divisão (/): usada para dividir dois valores
+- Módulo (%): usado para obter o resto da divisão de dois valores
+- Incremento (++) : usado para incrementar um valor
+- Decremento (--): usado para decrementar um valor
+
+Esses operadores podem ser usados ​​em expressões matemáticas simples ou complexas e também podem ser combinados com outros operadores e funções matemáticas para executar cálculos mais avançados. Além disso, é importante lembrar que em Java, a ordem de precedência dos operadores aritméticos segue a mesma ordem da matemática convencional, ou seja, parênteses, multiplicação e divisão e, em seguida, adição e subtração.
+
 ### Conograma de estudos
 
 Aqui estão algumas dicas que podem ajudá-lo a estudar Java e seguir um cronograma:
