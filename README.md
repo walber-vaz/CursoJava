@@ -232,6 +232,27 @@ System.out.println(x >= y); // true
 System.out.println(x <= y); // false
 ```
 
+## Operadores lógicos
+
+Em Java, os operadores lógicos são usados para combinar valores booleanos ou expressões lógicas e produzir um novo valor booleano. Existem três operadores lógicos em Java: AND lógico, OR lógico e NOT lógico.
+
+- O operador AND lógico é representado pelo símbolo "&&". Ele combina duas expressões lógicas e produz um valor booleano verdadeiro se ambas as expressões forem verdadeiras, e um valor booleano falso caso contrário.
+
+- O operador OR lógico é representado pelo símbolo "||". Ele combina duas expressões lógicas e produz um valor booleano verdadeiro se pelo menos uma das expressões for verdadeira, e um valor booleano falso caso contrário.
+
+- O operador NOT lógico é representado pelo símbolo "!". Ele é usado para inverter o valor de uma expressão lógica, produzindo o valor booleano oposto.
+
+Esses operadores são amplamente utilizados em expressões condicionais em Java para controlar o fluxo do programa com base em determinadas condições. Eles também são usados em testes de unidade, validação de entrada do usuário e outras áreas de programação que envolvem lógica booleana.
+
+```java
+boolean x = true;
+boolean y = false;
+
+System.out.println(x && y); // false
+System.out.println(x || y); // true
+System.out.println(!x); // false
+```
+
 <hr />
 
 ### Conograma de estudos

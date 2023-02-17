@@ -4,7 +4,7 @@ public class OperadoresRelacionais {
     public static void main(String[] args) {
         // Operadores Relacionais
         // ==, !=, >, <, >=, <=
-        // Operadores lógicos sempre retornam um boolean
+        // Operadores relacionais sempre retornam um boolean
         int num1 = 10;
         int num2 = 20;
 
