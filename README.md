@@ -145,6 +145,43 @@ System.out.println(b); // 5
 - boolean: false
 - char: '\u0000'
 
+### Tipos de referência
+
+Tipos de referência são tipos de dados que são objetos. Tipos de referência são divididos em 3 tipos:
+
+- String
+- Arrays
+- Classes
+
+## Tipo String
+
+Em Java, o tipo String é uma classe que representa uma sequência de caracteres. O tipo String é muito comum em programas Java, e é usado para representar texto e outras informações baseadas em caracteres. A classe String é parte da biblioteca padrão do Java, e oferece uma variedade de métodos para manipular strings.
+
+A classe String em Java é imutável, o que significa que, uma vez criada, uma string não pode ser modificada. Em vez disso, sempre que você faz uma operação que modifica uma string, como concatenação, substituição de caracteres ou conversão de caixa, uma nova string é criada. Isso pode ser ineficiente em algumas situações, mas garante a integridade dos dados e evita problemas de concorrência em ambientes multithread.
+
+Para criar uma string em Java, você pode simplesmente declarar uma variável do tipo String e atribuir um valor de string a ela, usando aspas duplas. Por exemplo:
+
+```java
+String s = "Hello World";
+```
+
+Em Java, as strings são comparadas usando o método equals(). Esse método retorna true se duas strings tiverem o mesmo conteúdo, ou seja, os mesmos caracteres na mesma ordem. Por exemplo:
+
+```java
+String s1 = "hello";
+String s2 = "HELLO".toLowerCase();
+
+if (s1.equals(s2)) {
+    System.out.println("As strings são iguais.");
+} else {
+    System.out.println("As strings são diferentes.");
+}
+```
+
+Este código irá imprimir "As strings são iguais", porque as duas strings têm o mesmo conteúdo.
+
+A classe String em Java também oferece muitos outros métodos úteis para trabalhar com strings, como length(), substring(), replace(), indexOf() e split(). Com esses métodos, você pode realizar muitas operações comuns em strings, como encontrar substrings, substituir caracteres, dividir uma string em partes e muito mais.
+
 ### Conograma de estudos
 
 Aqui estão algumas dicas que podem ajudá-lo a estudar Java e seguir um cronograma:
