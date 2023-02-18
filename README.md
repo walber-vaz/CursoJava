@@ -44,6 +44,21 @@ Esses conceitos permitem que os programadores em Java criem programas robustos e
 
 **Variáveis tem regras serem seguidas e são**
 
+### Escopo de variáveis locais e globais
+
+Variáveis locais são variáveis declaradas dentro de um método, construtor ou bloco de código. Variáveis locais são criadas quando o método, construtor ou bloco de código é chamado e são destruídas quando o método, construtor ou bloco de código é concluído.
+
+Variáveis globais são variáveis declaradas fora de um método, construtor ou bloco de código. Variáveis globais são criadas quando o programa é iniciado e são destruídas quando o programa é encerrado.
+
+#### Regras para variáveis locais e globais
+
+- 1 - Variáveis locais são criadas quando o método, construtor ou bloco de código é chamado e são destruídas quando o método, construtor ou bloco de código é concluído.
+- 2 - Variáveis globais são criadas quando o programa é iniciado e são destruídas quando o programa é encerrado.
+- 3 - Variáveis locais são acessíveis apenas dentro do método, construtor ou bloco de código em que são declaradas.
+- 4 - Variáveis globais são acessíveis de qualquer lugar no programa.
+
+### Regras para nomes de variáveis
+
 - 1 - Não pode começar com número
 - 2 - Não pode conter caracteres especiais
 - 3 - Não pode ser uma palavra reservada
@@ -251,6 +266,41 @@ boolean y = false;
 System.out.println(x && y); // false
 System.out.println(x || y); // true
 System.out.println(!x); // false
+```
+
+## Estruturas de controle
+
+As estruturas de controle em Java são usadas para controlar o fluxo de execução do programa. Eles permitem que você execute um bloco de código apenas se uma determinada condição for verdadeira ou falsa. As estruturas de controle em Java incluem:
+
+- if / else: usado para executar um bloco de código se uma determinada condição for verdadeira
+- switch: usado para executar um bloco de código diferente dependendo do valor de uma variável
+- for: usado para executar um bloco de código repetidamente
+- while: usado para executar um bloco de código repetidamente enquanto uma determinada condição for verdadeira
+- do / while: usado para executar um bloco de código repetidamente enquanto uma determinada condição for verdadeira
+- break: usado para interromper a execução de um loop
+- continue: usado para interromper a execução atual de um loop e continuar a próxima iteração
+
+### if / else
+
+A estrutura de controle if / else em Java é usada para executar um bloco de código se uma determinada condição for verdadeira. Se a condição for falsa, um bloco de código alternativo pode ser executado. A sintaxe da estrutura de controle if / else em Java é mostrada abaixo:
+
+```java
+if (condição) {
+    // código a ser executado se a condição for verdadeira
+} else {
+    // código a ser executado se a condição for falsa
+}
+```
+
+```java
+int x = 10;
+int y = 20;
+
+if (x > y) {
+    System.out.println("x é maior que y");
+} else {
+    System.out.println("x é menor ou igual a y");
+}
 ```
 
 <hr />
